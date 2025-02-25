@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #10110e;
+}
+.navbar {
+    background:#010101;
+}
+.nav-link,
+.navbar-brand {
+    color: #d39314;
+    cursor: pointer;
+    font-size: 25px; /* Enlarged font size */
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.background {
+	background: #121208;
+	padding: 4em 0;
+}
+.team {
+	color: #e5e5e0;
+	padding: 0 180px;
+}
+.team .card-columns {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+.team .card {
+	background:none;
+	border: none;
+}
+.team .card-title {
+	font-size: 1.3rem;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
