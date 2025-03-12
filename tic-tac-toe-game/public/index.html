@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe & Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Contact Form -->
+        <div class="form-container">
+            <form action="/my-handling-form-page" method="post">
+                <h2>Contact Us</h2>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" required>
+
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" required>
+
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message" required></textarea>
+
+                <p>Select your Gender:</p>
+                <div class="radio-group">
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                </div>
+
+                <!-- Age Group Dropdown -->
+                <label for="age-group">Select Your Age Group:</label>
+                <select id="age-group" name="age_group" required>
+                    <option value="" disabled selected>Choose age group</option>
+                    <option value="below_25">Below 25</option>
+                    <option value="between_25_50">Between 25 and 50</option>
+                    <option value="above_50">Above 50</option>
+                </select>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <!-- React Root for Tic-Tac-Toe -->
+        <div id="root"></div>
+    </div>
+
+     <!-- Footer with Name & Student ID -->
+     <footer>
+      <p>Created by: <strong>Hashmi Harikumar</strong></p>
+      <p>Student ID: <strong>24250490</strong></p>
+  </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
